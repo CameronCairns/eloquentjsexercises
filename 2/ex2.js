@@ -12,15 +12,15 @@ for(var count = 1; count <= 100; count++){
     //by one another in  this 
     //case 15
     if(count % 15 === 0){
-        console.log('FizzBuzz')
+        console.log('FizzBuzz');
     }
     else if(count % 3 === 0){
-        console.log('Fizz')
+        console.log('Fizz');
     }
     else if(count % 5 === 0){
-        console.log('Buzz')
+        console.log('Buzz');
     }
     else{
-        console.log(count)
+        console.log(count);
     }
 }
